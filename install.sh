@@ -3,6 +3,9 @@
 # Install oh-my-zsh now
 curl -L http://install.ohmyz.sh | sh
 
+# Install homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # https://github.com/rupa/z
 # z, oh how i love you
 cd ~/code
