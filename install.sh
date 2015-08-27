@@ -1,3 +1,4 @@
+# Install dev dependencies. Based on Paul Irish setup:
 # https://github.com/paulirish/dotfiles/blob/master/install-deps.sh
 
 # Install oh-my-zsh now
@@ -12,3 +13,10 @@ cd ~/code
 git clone https://github.com/rupa/z.git
 chmod +x ~/code/z/z.sh
 # also consider moving over your current .z file if possible. it's painful to rebuild :)
+
+# Install VIM preferences
+# http://kien.github.io/ctrlp.vim/#installation
+# Run at Vim's command line:
+# :helptags ~/.vim/bundle/ctrlp.vim/doc
+# cd ~/.vim
+# git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
