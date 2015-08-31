@@ -26,7 +26,7 @@ ZSH_THEME="robbyrussell"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -70,24 +70,34 @@ export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+. ~/code/z/z.sh
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-
-. ~/code/z/z.sh
-
-# Add RVM to PATH for scripting
-
-export PATH="$PATH:$HOME/.rvm/bin"
-export PATH=$HOME/.node/bin:$PATH
-
-# Alias
 
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
-
+alias s="subl ."
 alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+### export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+### export PATH="$PATH:$HOME/.node/bin"
+export PATH="/usr/local/bin/npm:$PATH"
+
+# Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin"
+export PATH=$HOME/.node/bin:$PATH
+export PATH=$HOME/.node/lib/node_modules:$PATH
+
+export NODE_PATH=/usr/local/lib/node_modules
+
+export NVM_DIR="/Users/brunobarretto1/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
