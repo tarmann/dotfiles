@@ -85,6 +85,15 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 alias s="subl ."
 alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
 
+alias g="git"
+alias gs="git status"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gc="git commit -v"
+alias gca="git commit -v -a"
+alias gl="git pull"
+alias gp="git push"
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
