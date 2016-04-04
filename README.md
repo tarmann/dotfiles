@@ -20,4 +20,4 @@ My basic setup is captured in `install.sh` which adds:
 * [Export/Import Shortcuts in Divvy for Mac](http://mizage.clarify-it.com/d/nxr9qg)
 * [Sublime Text Syncing](https://packagecontrol.io/docs/syncing)
 
-Based on a old version of [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles)).
+Based on a old version of [Paul Irish's dotfiles](https://github.com/paulirish/dotfiles).
