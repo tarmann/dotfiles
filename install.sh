@@ -14,6 +14,9 @@ git clone https://github.com/rupa/z.git
 chmod +x ~/code/z/z.sh
 # also consider moving over your current .z file if possible. it's painful to rebuild :)
 
+# Install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
+
 # Install VIM preferences
 # http://kien.github.io/ctrlp.vim/#installation
 # Run at Vim's command line:
