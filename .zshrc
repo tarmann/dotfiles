@@ -92,7 +92,9 @@ alias gba="git branch -a"
 alias gc="git commit -v"
 alias gca="git commit -v -a"
 alias gl="git pull"
-alias gp="git push"
+alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset ' --abbrev-commit"
+
+alias p="open app.sublime-project"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
