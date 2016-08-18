@@ -82,6 +82,7 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias zshconfig="subl ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
+
 alias s="subl ."
 alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
 

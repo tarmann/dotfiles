@@ -17,9 +17,10 @@ chmod +x ~/code/z/z.sh
 # Install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 
-# Install VIM preferences
-# http://kien.github.io/ctrlp.vim/#installation
-# Run at Vim's command line:
-# :helptags ~/.vim/bundle/ctrlp.vim/doc
-# cd ~/.vim
-# git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+# Install global node packages
+npm install -g diff-so-fancy
+npm install -g eslint
+npm install -g gulp
+npm install -g nodemon
+npm install -g bower
+npm install -g ember-cli
