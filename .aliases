@@ -1,0 +1,41 @@
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+
+# config
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
+alias zshconfig="subl ~/.zshrc"
+
+# editor tools
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias s="subl ."
+alias p="open app.sublime-project"
+
+# server tools
+alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
+
+# git stuff
+alias g="git"
+alias gs="git status"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gc="git commit -v"
+alias gca="git commit -v -a"
+alias gl="git pull"
+alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset ' --abbrev-commit"
+
+# other cool stuff
+alias emojis="open http://www.emoji-cheat-sheet.com/"
+
+# folder aliases
+alias Work="~/Sites/storyful"
+
+# install all the things
+alias start-project="bundle install && bower install && npm install"
+
+# Kills all processes running on the specified port (e.g. 'killport 8080')
+killport() {
+  lsof -i tcp:$1 | awk '(NR!=1) && ($1!="Google") && ($1!="firefox") {print $2}' | xargs kill
+}
