@@ -27,3 +27,4 @@ npm install -g gulp
 npm install -g nodemon
 npm install -g bower
 npm install -g ember-cli
+npm install -g git-open

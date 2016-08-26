@@ -21,10 +21,16 @@ alias g="git"
 alias gs="git status"
 alias gb="git branch"
 alias gba="git branch -a"
-alias gc="git commit -v"
 alias gca="git commit -v -a"
 alias gl="git pull"
 alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset ' --abbrev-commit"
+
+# git commit and push
+push() {
+  git add .
+  git commit -m "$*"
+  git push
+}
 
 # other cool stuff
 alias emojis="open http://www.emoji-cheat-sheet.com/"
@@ -39,3 +45,5 @@ alias start-project="bundle install && bower install && npm install"
 killport() {
   lsof -i tcp:$1 | awk '(NR!=1) && ($1!="Google") && ($1!="firefox") {print $2}' | xargs kill
 }
+
+
