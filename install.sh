@@ -7,6 +7,9 @@ curl -L http://install.ohmyz.sh | sh
 # Install homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew install coreutils
+brew install cowsay
+
 # https://github.com/rupa/z
 # z, oh how i love you
 cd ~/code

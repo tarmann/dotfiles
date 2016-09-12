@@ -46,3 +46,11 @@ source $HOME/.dotfiles/.aliases
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Learn bash
+# echo "Did you know that:"; whatis $(ls /bin | gshuf -n 1)
+
+# Learn bash
+# cowsay -f $(ls /usr/share/cowsay/cows | gshuf -n 1 | cut -d. -f1) $(whatis $(ls /bin) 2>/dev/null | shuf -n 1)
+
+
