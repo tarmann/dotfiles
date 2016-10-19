@@ -55,8 +55,3 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # Learn bash
 # cowsay -f $(ls /usr/share/cowsay/cows | gshuf -n 1 | cut -d. -f1) $(whatis $(ls /bin) 2>/dev/null | shuf -n 1)
-
-export GITHUB_TOKEN='2fdcd148b0ef9217867e3c353237b4c9c6d8399e'
-export REDIS_URL='redis://localhost:6379'
-export ALMANAC_DB_URL_TEST='postgresql://@localhost/almanac_test'
-export ALMANAC_DB_URL_DEVELOPMENT='postgresql://@localhost/almanac_development'
