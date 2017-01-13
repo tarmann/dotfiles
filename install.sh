@@ -9,6 +9,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew install coreutils
 brew install cowsay
+brew install tig
 
 # https://github.com/rupa/z
 # z, oh how i love you

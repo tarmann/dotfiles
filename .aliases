@@ -21,7 +21,8 @@ alias g="git"
 alias gs="git status"
 alias gb="git branch"
 alias gba="git branch -a"
-alias gca="git commit -v -a"
+alias gadd="git add -A”
+alias gca="git commit -v -a -m“
 alias gl="git pull"
 alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset ' --abbrev-commit"
 
