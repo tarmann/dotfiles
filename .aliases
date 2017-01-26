@@ -25,6 +25,7 @@ alias gadd="git add -A”
 alias gca="git commit -v -a -m“
 alias gl="git pull"
 alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset ' --abbrev-commit"
+alias greset="git reset --hard HEAD~1"
 
 # git commit and push
 push() {
@@ -36,11 +37,10 @@ push() {
 # other cool stuff
 alias emojis="open http://www.emoji-cheat-sheet.com/"
 
-# folder aliases
-alias Work="~/Sites/storyful"
-
 # install all the things
 alias start-project="bundle install && bower install && npm install"
+
+alias reset-project="powder stop && spring stop && rails db:drop && rails db:create && rails db:schema:load && rails sample_data:load && powder start"
 
 # Kills all processes running on the specified port (e.g. 'killport 8080')
 killport() {
