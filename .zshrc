@@ -67,10 +67,13 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 
+### FUCK!
+eval "$(thefuck --alias)"
+
 ### ALIASES
 source $HOME/.dotfiles/.aliases
 
-### LOCAL 
+### LOCAL
 source $HOME/.dotfiles/.local
 
 ### Added by the Heroku Toolbelt
