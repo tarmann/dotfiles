@@ -27,6 +27,8 @@ alias gl="git pull"
 alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset ' --abbrev-commit"
 alias greset="git reset --hard HEAD~1"
 
+alias gbv="git branch -v -v"
+
 # git commit and push
 push() {
   git add .
