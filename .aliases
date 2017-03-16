@@ -16,8 +16,14 @@ alias p="open app.sublime-project"
 # server tools
 alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
 
+# ember tools
+alias ems='ember serve'
+alias emt='ember test --server'
+
 # dev tools
-alias npmreset='rm -rf node_modules && npm install'
+alias npm-reset='rm -rf node_modules && npm install'
+alias start-project="bundle install && bower install && npm install"
+alias reset-project="powder stop && spring stop && rails db:drop && rails db:create && rails db:schema:load && rails sample_data:load && powder start"
 
 # git stuff
 alias g="git"
@@ -45,9 +51,6 @@ push() {
 alias emojis="open http://www.emoji-cheat-sheet.com/"
 
 # install all the things
-alias start-project="bundle install && bower install && npm install"
-
-alias reset-project="powder stop && spring stop && rails db:drop && rails db:create && rails db:schema:load && rails sample_data:load && powder start"
 
 # Kills all processes running on the specified port (e.g. 'killport 8080')
 killport() {
