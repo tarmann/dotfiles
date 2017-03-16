@@ -16,6 +16,9 @@ alias p="open app.sublime-project"
 # server tools
 alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
 
+# dev tools
+alias npmreset='rm -rf node_modules && npm install'
+
 # git stuff
 alias g="git"
 alias gs="git status"

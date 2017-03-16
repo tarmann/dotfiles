@@ -21,6 +21,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# Prompt
+# source ~/code/zsh-git-prompt/zshrc.sh
+# PROMPT='$PROMPT $(git_super_status)'
+
 # User configuration
 
 export PATH="$PATH:/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
