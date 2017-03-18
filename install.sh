@@ -27,7 +27,7 @@ chmod +x ~/code/z/z.sh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 
 # Symlink zsh
-ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
 # Install global node packages
 npm install -g diff-so-fancy
