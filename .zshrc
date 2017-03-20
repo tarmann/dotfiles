@@ -41,7 +41,7 @@ export PATH=$HOME/.node/lib/node_modules:$PATH
 export NODE_PATH=/usr/local/lib/node_modules
 
 # Add YARN
-export PATH="$PATH:$HOME/.yarn/bin"
+export PATH="$PATH:`yarn global bin`"
 
 # Setup and load Load nvm
 export NVM_DIR="$HOME/.nvm"
