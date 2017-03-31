@@ -50,6 +50,7 @@ push() {
 
 # other cool stuff
 alias emojis="open http://www.emoji-cheat-sheet.com/"
+alias c="clear"
 
 # install all the things
 
