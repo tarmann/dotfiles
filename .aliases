@@ -41,7 +41,7 @@ alias gclean="git clean -f -d"
 
 alias gbv="git branch -v -v"
 
-alias gconflicts="git diff --name-only --diff-filter=U"
+alias gdc="git diff --name-only --diff-filter=U"
 
 # git commit and push
 push() {
