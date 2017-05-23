@@ -19,7 +19,8 @@ alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
 # ember tools
 alias ems='ember serve'
 alias emt='ember test'
-alias emts='COVERAGE=true ember test --server'
+alias emts='ember test --server'
+alias emtsc='COVERAGE=true ember test --server'
 
 # dev tools
 alias npm-reset='rm -rf node_modules && npm install'
