@@ -19,7 +19,10 @@ alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
 # ember tools
 alias ems='ember serve'
 alias emt='ember test'
+alias emtp='ember exam --split=3 --parallel'
+alias emtr='ember exam --random'
 alias emts='ember test --server'
+alias emtsr='ember exam --server --random'
 alias emtsc='COVERAGE=true ember test --server'
 
 # dev tools
@@ -27,8 +30,12 @@ alias npm-reset='rm -rf node_modules && npm install'
 alias start-project="bundle install && bower install && npm install"
 alias reset-project="powder stop && spring stop && rails db:drop && rails db:create && rails db:schema:load && rails sample_data:load && powder start"
 
+# chrome
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+
 # git stuff
 alias g="git"
+alias go="git open"
 alias gs="git status"
 alias gb="git branch"
 alias gba="git branch -a"

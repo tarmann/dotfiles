@@ -17,16 +17,18 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git git-open zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
+
+### TTC
+export TTC_WEATHER='Dublin, Ireland'
 
 # Prompt
 # source ~/code/zsh-git-prompt/zshrc.sh
 # PROMPT='$PROMPT $(git_super_status)'
 
 # User configuration
-
 export PATH="$PATH:/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 . ~/code/z/z.sh
@@ -69,7 +71,6 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
-
 
 ### FUCK!
 eval "$(thefuck --alias)"

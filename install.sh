@@ -38,3 +38,9 @@ npm install -g bower
 npm install -g ember-cli
 npm install -g git-open
 npm install -g json-server
+
+# Install suggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+
+# git-open
+git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open
