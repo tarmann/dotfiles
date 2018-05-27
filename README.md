@@ -18,8 +18,9 @@ My basic setup is captured in `install.sh` which adds:
 - [Alfred](https://www.alfredapp.com/)
 - [Quitter](https://marco.org/apps)
 - [GrandPerspective](http://grandperspectiv.sourceforge.net/)
-- [Tunnel Bear: VPN](https://www.tunnelbear.com/)
-- [Gyazo: Instant screenshots](https://gyazo.com/)
+- [Tunnel Bear](https://www.tunnelbear.com/)
+- [Gyazo](https://gyazo.com/)
+- [Vanilla](https://matthewpalmer.net/vanilla/)
 
 #### Office
 
@@ -34,7 +35,7 @@ My basic setup is captured in `install.sh` which adds:
 - [iTerm2](https://www.iterm2.com/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [SourceTree: Git GUI](https://www.sourcetreeapp.com/)
+- [SourceTree](https://www.sourcetreeapp.com/)
 
 #### Music
 
