@@ -28,7 +28,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PATH="$PATH:/usr/local/git/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-. ~/code/z/z.sh
+. ~/.code/z/z.sh
 
 # Add NPM to PATH for scripting
 export PATH="/usr/local/bin/npm:$PATH"
@@ -40,7 +40,7 @@ export PATH=$HOME/.node/lib/node_modules:$PATH
 export NODE_PATH=/usr/local/lib/node_modules
 
 # Add YARN
-export PATH="$PATH:`yarn global bin`"
+# export PATH="$PATH:`yarn global bin`"
 
 # Setup and load Load nvm
 export NVM_DIR="$HOME/.nvm"
@@ -84,3 +84,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

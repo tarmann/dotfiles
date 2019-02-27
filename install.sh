@@ -27,6 +27,7 @@ chmod +x ~/code/z/z.sh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 
 # Symlink zsh
+mv ~/.zshrc ~/.zshrc_tmp
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
 # Install global node packages
